@@ -40,7 +40,7 @@ async function request(reqUrl, postData, agentSp, get) {
 
 async function init(cfg) {
     siteKey = cfg.skey;
-    siteType = cfg.s./qyg23js;
+    siteType = cfg.s./qyg24js;
     var deviceKey = 'device';
     var deviceInfo = await local.get(key, deviceKey);
     if (deviceInfo.length > 0) {
@@ -61,43 +61,43 @@ async function home(filter) {
     let data = JSON.parse(await request(url + '/api.php/Index/getTopVideoCategory')).data;
     let classes = [];
     let filterObj = {};
-    for (const ./qyg23js of data) {
-        let ./qyg23jsName = ./qyg23js.nav_name;
-        if (./qyg23jsName == '推荐') continue;
-        let ./qyg23jsId = ./qyg23js.nav_./qyg23js_id.toString();
+    for (const ./qyg24js of data) {
+        let ./qyg24jsName = ./qyg24js.nav_name;
+        if (./qyg24jsName == '推荐') continue;
+        let ./qyg24jsId = ./qyg24js.nav_./qyg24js_id.toString();
         classes.push({
-            ./qyg23js_id: ./qyg23jsId,
-            ./qyg23js_name: ./qyg23jsName,
+            ./qyg24js_id: ./qyg24jsId,
+            ./qyg24js_name: ./qyg24jsName,
         });
         if (!filter) continue;
         try {
             let filterAll = [];
-            let filterData = JSON.parse(await request(url + '/api.php/Video/getFilterType', { ./qyg23js: ./qyg23jsId })).data;
+            let filterData = JSON.parse(await request(url + '/api.php/Video/getFilterType', { ./qyg24js: ./qyg24jsId })).data;
             for (let key of Object.keys(filterData)) {
                 let itemValues = filterData[key];
                 if (key === 'plot') key = 'class';
-                let ./qyg23jsExtendName = '';
+                let ./qyg24jsExtendName = '';
                 switch (key) {
                     case 'class':
-                        ./qyg23jsExtendName = '类型';
+                        ./qyg24jsExtendName = '类型';
                         break;
                     case 'area':
-                        ./qyg23jsExtendName = '地区';
+                        ./qyg24jsExtendName = '地区';
                         break;
                     case 'lang':
-                        ./qyg23jsExtendName = '语言';
+                        ./qyg24jsExtendName = '语言';
                         break;
                     case 'year':
-                        ./qyg23jsExtendName = '年代';
+                        ./qyg24jsExtendName = '年代';
                         break;
                     case 'sort':
-                        ./qyg23jsExtendName = '排序';
+                        ./qyg24jsExtendName = '排序';
                         break;
                 }
-                if (./qyg23jsExtendName.length === 0) continue;
+                if (./qyg24jsExtendName.length === 0) continue;
                 let newTypeExtend = {
                     key: key,
-                    name: ./qyg23jsExtendName,
+                    name: ./qyg24jsExtendName,
                 };
                 let newTypeExtendKV = [];
                 for (let j = 0; j < itemValues.length; j++) {
@@ -110,7 +110,7 @@ async function home(filter) {
                 filterAll.push(newTypeExtend);
             }
             if (!_.isEmpty(filterAll)) {
-                filterObj[./qyg23jsId] = filterAll;
+                filterObj[./qyg24jsId] = filterAll;
             }
         } catch (e) {
             console.log(e);
@@ -126,7 +126,7 @@ async function home(filter) {
 }
 
 async function homeVod() {
-    let jsonArray = JSON.parse(await request(url + '/api.php/Index/getHomePage', { ./qyg23js: 1, p: 1 })).data.video;
+    let jsonArray = JSON.parse(await request(url + '/api.php/Index/getHomePage', { ./qyg24js: 1, p: 1 })).data.video;
     let videos = [];
     for (const item of jsonArray) {
         if (item.title.styleType !== 0) continue;
@@ -150,7 +150,7 @@ async function category(tid, pg, filter, extend) {
     var formData = JSON.parse(
         jinja2(
             `{
-        "./qyg23js": "{{tid}}",
+        "./qyg24js": "{{tid}}",
         "p": "{{pg}}",
         "area": "{{ext.area|default(0)}}",
         "year": "{{ext.year|default(0)}}",
@@ -186,7 +186,7 @@ async function detail(id) {
         vod_id: data.vod_id,
         vod_name: data.vod_name,
         vod_pic: data.vod_pic,
-        ./qyg23js_name: data.vod_class,
+        ./qyg24js_name: data.vod_class,
         vod_year: data.vod_year,
         vod_area: data.vod_area,
         vod_remarks: data.vod_remarks || '',
@@ -276,7 +276,7 @@ async function play(flag, id, flags) {
 }
 
 async function search(wd, quick) {
-    let data = JSON.parse(await request(url + '/api.php/Search/getSearch', { key: wd, ./qyg23js_id: 0, p: 1 })).data;
+    let data = JSON.parse(await request(url + '/api.php/Search/getSearch', { key: wd, ./qyg24js_id: 0, p: 1 })).data;
     let videos = [];
     for (const vod of data.data) {
         videos.push({

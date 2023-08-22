@@ -198,7 +198,7 @@ async function play(flag, id, flags) {
         const group = js.match(/(var.*)eval\((\w*\(\w*\))\)/);
         const md5 = Crypto;
         const result = eval(group[1] + group[2]);
-        const playUrl = result.match(/url:.*?['"./qyg21js"]/)[1];
+        const playUrl = result.match(/url:.*?['"./qyg14js"]/)[1];
         return JSON.stringify({
             parse: 0,
             url: playUrl,
