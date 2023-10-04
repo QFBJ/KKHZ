@@ -25,28 +25,6 @@
       "ext": "./QFBJ/JDK3/码上看_豆瓣.min.js"
     },
     {
-      "key": "公告1",
-      "name": "公告",
-      "type": 3,
-      "api": "csp_Notice",
-      "searchable": 0,
-      "changeable": 0,
-      
-      "jar":"./千方.jar"
-    },
-    { 
-      "key": "公告",
-      "name": "千方百纪┃公告",
-      "type": 3,
-      "api": "",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "jar":"./公告3.jar"
-    },
-    {"key": "csp_KungFu404","name":"千方百纪┃阿里云","type": 3, "api": "csp_KungFu404", "searchable":1,"filterable": 0, "changeable":0,"jar":"./alibaba.jar"},
-
-    {
       "key": "dr_码上看_哔哩影视",
       "name": "千方百纪┃看动漫",
       "type": 3,
@@ -67,17 +45,6 @@
       "ext": "./QFBJ/JDK3/码上看_素白白.min.js"
     },
     {
-      "key": "csp_WoGG",
-      "name": "👽玩偶哥哥┃4K",
-      "type": 3,
-      "api": "csp_WoGG",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "./阿里帐号.txt",
-    
-     "jar":"./QFBJ.jar"},
-    {
       "key": "Bili",
       "name": "🅱哔哔┃合集",
       "type": 3,
@@ -89,9 +56,8 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./QFBJ/JDK1/bilibili.json",
-    
-     "jar":"./QFBJ.jar"},
+      "ext": "./QFBJ/JDK1/bilibili.json"
+    },
     {
       "key": "Biliych",
       "name": "🅱哔哔┃演唱会",
@@ -104,8 +70,8 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./QFBJ/JDK1/biliych.json",
-       "jar":"./QFBJ.jar"},
+      "ext": "./QFBJ/JDK1/biliych.json"
+    },
     {
       "key": "YGP",
       "name": "🚀叨观荐影┃速递",
@@ -113,8 +79,8 @@
       "api": "csp_YGP",
       "searchable": 0,
       "quickSearch": 0,
-      "changeable": 0,
-       "jar":"./QFBJ.jar"},
+      "changeable": 0
+    },
     {
       "key": "4KHDR",
       "name": "🧲世界磁力┃慎用",
@@ -123,8 +89,8 @@
       "quickSearch": 1,
       "changeable": 0,
       "api": "./QFBJ/JDK1/drpy1.min.js",
-      "ext": "./QFBJ/JDK1/4khdr.js",
-       "jar":"./QFBJ.jar"},
+      "ext": "./QFBJ/JDK1/4khdr.js"
+    },
     {
       "key": "新6V",
       "name": "🧲新6V磁力┃慎用",
@@ -133,8 +99,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://www.xb6v.com/",
-       "jar":"./QFBJ.jar"},
+      "ext": "http://www.xb6v.com/"
+    },
     {
       "key": "迪迪",
       "name": "😎迪迪┃App",
@@ -143,8 +109,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://22222.yiyingys.asia/api.php/app/",
-       "jar":"./QFBJ.jar"},
+      "ext": "http://22222.yiyingys.asia/api.php/app/"
+    },
     {
       "key": "Czsapp",
       "name": "📔厂长┃直连",
@@ -153,8 +119,8 @@
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-       "jar":"./QFBJ.jar"},
+      "changeable": 1
+    },
     {
       "key": "Auete",
       "name": "🏝奥特┃直连",
@@ -162,8 +128,8 @@
       "api": "csp_Auete",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-       "jar":"./QFBJ.jar"},
+      "changeable": 1
+    },
     {
       "key": "蚂蚁",
       "name": "🐜蚂蚁┃直连",
@@ -172,8 +138,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "http://rzys.xyz",
-       "jar":"./QFBJ.jar"},
+      "ext": "http://rzys.xyz"
+    },
     {
       "key": "zxzj",
       "name": "📗在线┃直连",
@@ -182,8 +148,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://www.zxzj.pro/",
-       "jar":"./QFBJ.jar"},
+      "ext": "https://www.zxzj.pro/"
+    },
     {
       "key": "贱贱",
       "name": "🐭贱贱┃p2p",
@@ -193,8 +159,8 @@
       "changeable": 1,
       "playerType": "1",
       "api": "./QFBJ/JDK1/drpy1.min.js",
-      "ext": "./QFBJ/JDK1/jp.js",
-       "jar":"./QFBJ.jar"},
+      "ext": "./QFBJ/JDK1/jp.js"
+    },
     {
       "key": "探探",
       "name": "🏵影探┃App",
@@ -204,8 +170,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "vip.lyyytv.cn",
-       "jar":"./QFBJ.jar"},
+      "ext": "vip.lyyytv.cn"
+    },
     {
       "key": "哈喽",
       "name": "✌哈喽┃App",
@@ -214,8 +180,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.miniku.cc/xgapp.php/v1/",
-       "jar":"./QFBJ.jar"},
+      "ext": "http://www.miniku.cc/xgapp.php/v1/"
+    },
     {
       "key": "陌陌",
       "name": "🍄陌陌┃App",
@@ -224,8 +190,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://www.kuin.one/api.php/app/",
-       "jar":"./QFBJ.jar"},
+      "ext": "https://www.kuin.one/api.php/app/"
+    },
     {
       "key": "奇奇",
       "name": "🍓奇奇┃App",
@@ -234,8 +200,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://mp4.ghlyys.com/api.php/app/",
-       "jar":"./QFBJ.jar"},
+      "ext": "http://mp4.ghlyys.com/api.php/app/"
+    },
     {
       "key": "DiDuan",
       "name": "⏮️低端┃直连",
@@ -243,8 +209,8 @@
       "api": "csp_Ddrk",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-       "jar":"./QFBJ.jar"},
+      "changeable": 1
+    },
     {
       "key": "77",
       "name": "👒七七┃App",
@@ -252,8 +218,8 @@
       "api": "csp_Kunyu77",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-       "jar":"./QFBJ.jar"},
+      "changeable": 1
+    },
     {
       "key": "Vofl",
       "name": "🎈VOF┃直连",
@@ -261,8 +227,8 @@
       "api": "csp_Voflix",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-       "jar":"./QFBJ.jar"},
+      "changeable": 1
+    },
     {
       "key": "Lib",
       "name": "🌟利播┃直连",
@@ -271,8 +237,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://www.libvio.pro/",
-       "jar":"./QFBJ.jar"},
+      "ext": "https://www.libvio.pro/"
+    },
     {
       "key": "Xinsj",
       "name": "👓视觉┃直连",
@@ -281,8 +247,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://www.6080yy3.com/",
-       "jar":"./QFBJ.jar"},
+      "ext": "https://www.6080yy3.com/"
+    },
     {
       "key": "kuaikan",
       "name": "👀快看┃App",
@@ -290,8 +256,8 @@
       "api": "csp_Kuaikan",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-       "jar":"./QFBJ.jar"},
+      "changeable": 1
+    },
     {
       "key": "AppMr",
       "name": "👻明明┃App",
@@ -299,8 +265,8 @@
       "api": "csp_AppMr",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-       "jar":"./QFBJ.jar"},
+      "changeable": 1
+    },
     {
       "key": "YQKAPP",
       "name": "🎉一起┃App",
@@ -310,8 +276,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://api-aws.11ty.top",
-       "jar":"./QFBJ.jar"},
+      "ext": "https://api-aws.11ty.top"
+    },
     {
       "key": "Cokemv",
       "name": "📕可乐┃直连",
@@ -320,8 +286,8 @@
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-       "jar":"./QFBJ.jar"},
+      "changeable": 1
+    },
     {
       "key": "csp_Nmys",
       "name": "🌾农民┃直连",
@@ -330,8 +296,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "./QFBJ/JDK1/nmys.json",
-       "jar":"./QFBJ.jar"},
+      "ext": "./QFBJ/JDK1/nmys.json"
+    },
     {
       "key": "csp_Ysgc",
       "name": "🏭工场┃直连",
@@ -340,8 +306,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://www.ysgc1.cc/",
-       "jar":"./QFBJ.jar"},
+      "ext": "https://www.ysgc1.cc/"
+    },
     {
       "key": "csp_SP33",
       "name": "📺三三┃解析",
@@ -350,8 +316,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 0,
-       "jar":"./QFBJ.jar"},
+      "changeable": 0
+    },
     {
       "key": "Qtv",
       "name": "🐧腾腾┃解析",
@@ -360,8 +326,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 0,
-       "jar":"./QFBJ.jar"},
+      "changeable": 0
+    },
     {
       "key": "Itv",
       "name": "🥝爱爱┃解析",
@@ -370,8 +336,8 @@
       "quickSearch": 1,
       "searchable": 1,
       "filterable": 1,
-      "changeable": 0,
-       "jar":"./QFBJ.jar"},
+      "changeable": 0
+    },
     {
       "key": "Mtv",
       "name": "🍋芒芒┃解析",
@@ -380,109 +346,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 0,
-       "jar":"./QFBJ.jar"},
-    {
-      "key": "csp_Dm84",
-      "name": "🚌动漫┃巴士",
-      "type": 3,
-      "api": "csp_Dm84",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-       "jar":"./QFBJ.jar"},
-    {
-      "key": "csp_Ying",
-      "name": "💮樱花┃动漫",
-      "type": 3,
-      "api": "csp_Ying",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-       "jar":"./QFBJ.jar"},
-    {
-      "key": "csp_Ysj",
-      "name": "🎀异界┃动漫",
-      "type": 3,
-      "api": "csp_Ysj",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-       "jar":"./QFBJ.jar"},
-    {
-      "key": "csp_Anime1",
-      "name": "🐾日本┃动漫",
-      "type": 3,
-      "api": "csp_Anime1",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-       "jar":"./QFBJ.jar"},
-    {
-      "key": "csp_Yj1211",
-      "name": "📽️网红┃直播",
-      "type": 3,
-      "api": "csp_Yj1211",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-       "jar":"./QFBJ.jar"},
-    {
-      "key": "88js",
-      "name": "⚽ 88┃看球",
-      "type": 3,
-      "api": "./QFBJ/JDK1/drpy1.min.js",
-      "ext": "./QFBJ/JDK1/88看球.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-       "jar":"./QFBJ.jar"},
-    {
-      "key": "csp_qiumi",
-      "name": "⚽ Jrs┃球迷",
-      "type": 3,
-      "api": "./QFBJ/JDK1/drpy1.min.js",
-      "ext": "./QFBJ/JDK1/JRKAN直播.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-       "jar":"./QFBJ.jar"},
-    {
-      "key": "csp_310直播",
-      "name": "⚽310┃看球",
-      "type": 3,
-      "api": "./QFBJ/JDK1/drpy1.min.js",
-      "ext": "./QFBJ/JDK1/310直播.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-       "jar":"./QFBJ.jar"},
-    {
-      "key": "csp_XPath_企鹅体育",
-      "name": "🐧企鹅┃体育",
-      "type": 3,
-      "api": "csp_XPath",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "./QFBJ/JDK1/企鹅直播.json",
-       "jar":"./QFBJ.jar"},
+      "changeable": 0
+    },
     {
       "key": "MV_vod",
       "name": "🎶明星┃MV",
@@ -493,8 +358,8 @@
       },
       "searchable": 1,
       "quickSearch": 0,
-      "changeable": 0,
-       "jar":"./QFBJ.jar"},
+      "changeable": 0
+    },
     {
       "key": "酷奇js",
       "name": "🎤酷奇┃MV",
@@ -507,8 +372,8 @@
       },
       "searchable": 0,
       "quickSearch": 0,
-      "changeable": 0,
-       "jar":"./QFBJ.jar"},
+      "changeable": 0
+    },
     {
       "key": "虎牙直播js",
       "name": "🐯虎牙┃直播",
@@ -521,8 +386,8 @@
       },
       "searchable": 0,
       "quickSearch": 0,
-      "changeable": 0,
-       "jar":"./QFBJ.jar"},
+      "changeable": 0
+    },
     {
       "key": "csp_XYQBiu_斗鱼",
       "name": "🐟斗鱼┃直播",
@@ -535,8 +400,8 @@
       },
       "searchable": 0,
       "quickSearch": 0,
-      "changeable": 0,
-       "jar":"./QFBJ.jar"},
+      "changeable": 0
+    },
     {
       "key": "csp_聚短视频",
       "name": "📽️聚短┃视频",
@@ -545,8 +410,8 @@
       "ext": "./QFBJ/JDK1/短视频.js",
       "searchable": 0,
       "quickSearch": 0,
-      "changeable": 0,
-       "jar":"./QFBJ.jar"},
+      "changeable": 0
+    },
     {
       "key": "有声小说js",
       "name": "🎧有声┃小说",
@@ -559,95 +424,8 @@
       },
       "searchable": 0,
       "quickSearch": 0,
-      "changeable": 0,
-       "jar":"./QFBJ.jar"},
-    {
-      "key": "YiSo",
-      "name": "😹易搜┃搜索",
-      "type": 3,
-      "api": "csp_YiSo",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "./阿里帐号.txt",
-       "jar":"./QFBJ.jar"},
-    {
-      "key": "Zhaozy",
-      "name": "🐺找资源┃搜索",
-      "type": 3,
-      "api": "csp_Zhaozy",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "./阿里帐号.txt$$$fanfan$$$qqq111",
-       "jar":"./QFBJ.jar"},
-    {
-      "key": "PanSou",
-      "name": "🦊盘搜┃搜索",
-      "type": 3,
-      "api": "csp_PanSou",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "./阿里帐号.txt",
-       "jar":"./QFBJ.jar"},
-    {
-      "key": "UpYun",
-      "name": "😻Up搜┃搜索",
-      "type": 3,
-      "api": "csp_UpYun",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "./阿里帐号.txt",
-       "jar":"./QFBJ.jar"},
-    {
-      "key": "PanSearch",
-      "name": "🙀盘Se┃搜索",
-      "type": 3,
-      "api": "csp_PanSearch",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "./阿里帐号.txt",
-       "jar":"./QFBJ.jar"},
-    {
-      "key": "七夜",
-      "name": "😾七夜┃搜索",
-      "type": 3,
-      "api": "csp_Dovx",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "./阿里帐号.txt",
-       "jar":"./QFBJ.jar"},
-    {
-      "key": "push_agent",
-      "name": "🛴手机┃推送",
-      "type": 3,
-      "api": "csp_Push",
-      "searchable": 0,
-      "quickSearch": 0,
-      "ext": "./阿里帐号.txt",
-       "jar":"./QFBJ.jar"},
-    {
-      "key": "csp_Nbys",
-      "name": "🛫泥巴┃飞",
-      "type": 3,
-      "api": "csp_NiNi",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-       "jar":"./QFBJ.jar"},
-    {
-      "key": "csp_trj",
-      "name": "🛫唐人街┃飞",
-      "type": 3,
-      "api": "csp_Tangrenjie",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-       "jar":"./QFBJ.jar"},
+      "changeable": 0
+    },
     {
       "key": "dr_兔小贝",
       "name": "📚儿童┃启蒙",
@@ -660,8 +438,8 @@
       },
       "searchable": 0,
       "quickSearch": 0,
-      "changeable": 0,
-       "jar":"./QFBJ.jar"},
+      "changeable": 0
+    },
     {
       "key": "少儿教育",
       "name": "📚少儿┃教育",
@@ -674,8 +452,8 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./QFBJ/JDK1/少儿教育.json",
-       "jar":"./QFBJ.jar"},
+      "ext": "./QFBJ/JDK1/少儿教育.json"
+    },
     {
       "key": "小学课堂",
       "name": "📚小学┃课堂",
@@ -688,8 +466,8 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./QFBJ/JDK1/小学课堂.json",
-       "jar":"./QFBJ.jar"},
+      "ext": "./QFBJ/JDK1/小学课堂.json"
+    },
     {
       "key": "初中课堂",
       "name": "📚初中┃课堂",
@@ -702,8 +480,8 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./QFBJ/JDK1/初中课堂.json",
-       "jar":"./QFBJ.jar"},
+      "ext": "./QFBJ/JDK1/初中课堂.json"
+    },
     {
       "key": "高中教育",
       "name": "📚高中┃课堂",
@@ -716,10 +494,10 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./QFBJ/JDK1/高中课堂.json",
-       "jar":"./QFBJ.jar"}
+      "ext": "./QFBJ/JDK1/高中课堂.json"
+    }
+
   ],
-  
   "parses": [
     {
       "name": "聚合1",
