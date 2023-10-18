@@ -605,7 +605,7 @@
       "api": "https://api.apilyzy.com/api.php/provide/vod/",
       "searchable": 1
     },
-    {"key": "麻豆村","name": "👠麻豆村","type":1,"api": "https://madoucun.cn/api.php/provide/vod/?ac=list", "searchable": 1,"quickSearch": 1, "filterable": 1 },
+    {"key": "麻豆村","name": "麻豆村","type":1,"api": "https://madoucun.cn/api.php/provide/vod/?ac=list", "searchable": 1,"quickSearch": 1, "filterable": 1 },
     {
       "key":"乐播资源",
       "name":"乐播资源",
